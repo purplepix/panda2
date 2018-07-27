@@ -1,0 +1,33 @@
+.bg-salmon {
+  background-color: #FF8661;
+}
+
+.bg-green {
+  background-color: #92EA81;
+}
+
+.bgd-img-1 {
+  background-image: url("images/uno.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  filter: grayscale();
+}
+
+.bgd-img-2 {
+  background-image: url("images/dos.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  filter: grayscale();
+}
+
+.bgd-img-3 {
+  background-image: url("images/tres.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  filter: grayscale();
+}
+
+/* img-thumbnail */
