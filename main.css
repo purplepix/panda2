@@ -1,5 +1,18 @@
+h1 {
+ font-size: 3rem; 
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 .bg-salmon {
   background-color: #FF8661;
+  font-weight: lighter;
 }
 
 .bg-green {
@@ -11,7 +24,7 @@
   background-position: center;
   background-size: cover;
   height: 60vh;
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
 .bgd-img-2 {
@@ -19,7 +32,7 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
 .bgd-img-3 {
@@ -27,7 +40,10 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
-/* img-thumbnail */
+.img-thumbnail {
+  padding: 0.75rem;
+  border-radius: 0rem;
+}
